@@ -1,0 +1,31 @@
+:root {
+
+}
+
+*,
+*::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    line-height: 21px;
+    font-family: 'graphik_lcgregular', 'graphik_lcgsemibold', sans-serif;
+    color: ;
+}
+
+#wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+}
+.head {
+
+}
