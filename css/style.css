@@ -1,5 +1,6 @@
 :root {
-
+    --white: #fff;
+    --black: #000000;
 }
 
 *,
@@ -12,7 +13,7 @@ body {
     height: 100%;
     line-height: 21px;
     font-family: 'graphik_lcgregular', 'graphik_lcgsemibold', sans-serif;
-    color: ;
+    color: var(--white);
 }
 
 #wrapper {
@@ -26,9 +27,24 @@ body {
     max-width: 1440px;
     width: 100%;
 }
-.icon img {
 
+.icon img {}
+
+.icon_two {}
+
+.btn {
+    height: 45px;
+    font-family: 'graphik_lcgsemibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: var(--black);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
 }
-.icon_two {
 
+.btn:hover {
+    background: var(--white);
 }
