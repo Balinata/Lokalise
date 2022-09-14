@@ -1,6 +1,7 @@
 :root {
     --white: #fff;
     --black: #000000;
+    --orange: #FF6336;
 }
 
 *,
@@ -47,4 +48,44 @@ body {
 
 .btn:hover {
     background: var(--white);
+}
+
+.btn_two {
+    font-family: 'graphik_lcgsemibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 0px;
+    color: var(--white);
+    background: var(--orange);
+    text-decoration: none;
+}
+
+.btn_two:hover {
+    background: var(--white);
+    color: var(--black);
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.menu a {
+    color: var(--base-color);
+    text-decoration: none;
+    transition: color var(--speed);
+}
+
+.menu a:hover {
+    color: var(--hover-color);
+}
+
+.menu > li {
+    display: inline-block;
+    padding: 0 15px;
 }
