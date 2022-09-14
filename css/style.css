@@ -29,9 +29,16 @@ body {
     width: 100%;
 }
 
-.icon img {}
+.header-panel {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 16px 0;
+}
 
-.icon_two {}
+.logo {
+        display: inline-block;
+        vertical-align: middle;
+}
 
 .btn {
     height: 45px;
