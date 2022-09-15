@@ -36,8 +36,8 @@ body {
 }
 
 .logo {
-        display: inline-block;
-        max-width: 100%;
+    display: inline-block;
+    max-width: 100%;
     vertical-align: top;
     height: auto;
     margin-left: -6px;
@@ -45,9 +45,9 @@ body {
 }
 
 .btn-header {
-        display: inline-block;
-        line-height: 1.2px;
-        vertical-align: middle;
+    display: inline-block;
+    line-height: 1.2px;
+    vertical-align: middle;
 }
 
 .btn-header .btn .btn_two {
@@ -105,7 +105,12 @@ body {
     color: var(--orange);
 }
 
-.menu > li {
+.menu>li {
     display: inline-block;
-    padding: 0 26px;
+    padding: 0 28px;
+    font-family: 'graphik_lcgregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
 }
