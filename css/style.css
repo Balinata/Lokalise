@@ -29,15 +29,29 @@ body {
     width: 100%;
 }
 
-.header-panel {
-    font-size: 14px;
-    line-height: 16px;
-    padding: 16px 0;
+#header {
+    display: flex;
+    padding: 23px 50px 23px 50px;
+    border-bottom: 1px solid ccc;
 }
 
 .logo {
         display: inline-block;
+        max-width: 100%;
+    vertical-align: top;
+    height: auto;
+    margin-left: -6px;
+    padding-top: 6px;
+}
+
+.btn-header {
+        display: inline-block;
+        line-height: 1.2px;
         vertical-align: middle;
+}
+
+.btn-header .btn .btn_two {
+    vertical-align: middle;
 }
 
 .btn {
@@ -49,6 +63,7 @@ body {
     line-height: 45px;
     text-align: center;
     color: var(--black);
+    text-decoration: none;
     border: 1px solid rgba(0, 0, 0, 0.5);
     border-radius: 0px;
 }
@@ -76,23 +91,21 @@ body {
 }
 
 .menu {
-    margin: 0;
-    padding: 0;
+    padding-left: 157px;
+    margin-top: -30px;
     list-style: none;
-    text-align: center;
 }
 
 .menu a {
-    color: var(--base-color);
+    color: var(--black);
     text-decoration: none;
-    transition: color var(--speed);
 }
 
 .menu a:hover {
-    color: var(--hover-color);
+    color: var(--orange);
 }
 
 .menu > li {
     display: inline-block;
-    padding: 0 15px;
+    padding: 0 26px;
 }
