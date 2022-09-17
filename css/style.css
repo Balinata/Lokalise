@@ -2,6 +2,8 @@
     --white: #fff;
     --black: #000000;
     --orange: #FF6336;
+    --header-border: #ccc;
+    --btn-hover-grey: #343434;
 }
 
 *,
@@ -24,15 +26,22 @@ body {
 }
 
 .container {
-    margin: 0 auto;
     max-width: 1440px;
+    margin: 0 auto;
     width: 100%;
 }
 
 #header {
     display: flex;
     padding: 23px 50px 23px 50px;
-    border-bottom: 1px solid ccc;
+    border-bottom: 1px solid var(--header-border);
+    /* margin-top: -25px; */
+}
+
+.logo-wrap {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -40,22 +49,44 @@ body {
     max-width: 100%;
     vertical-align: top;
     height: auto;
-    margin-left: -6px;
-    padding-top: 6px;
+    margin-left: -4px;
 }
 
-.btn-header {
-    display: inline-block;
-    line-height: 1.2px;
-    vertical-align: middle;
+.header-menu {
+    flex-grow: 1;
+    display: flex;
+    list-style: none;
+    padding: 0 0 0 14px;
+    margin: 0;
+    color: var(--black);
 }
 
-.btn-header .btn .btn_two {
-    vertical-align: middle;
+.header-menu>li {
+    padding: 0 27px;
+    font-family: 'graphik_lcgregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.header-menu li:hover {
+    background: var(--orange);
+    border-radius: 10px 5px;
+}
+
+.btn-wrapp {
+    display: flex;
+    list-style: none;
+    gap: 0 7px;
+    text-decoration: none;
+    padding-top: 1px;
 }
 
 .btn {
     height: 45px;
+    width: 122px;
     font-family: 'graphik_lcgsemibold';
     font-style: normal;
     font-weight: 600;
@@ -69,10 +100,13 @@ body {
 }
 
 .btn:hover {
-    background: var(--white);
+    background: var(--header-border);
+    color: #343434;
 }
 
 .btn_two {
+    height: 45px;
+    width: 123px;
     font-family: 'graphik_lcgsemibold';
     font-style: normal;
     font-weight: 600;
@@ -86,31 +120,6 @@ body {
 }
 
 .btn_two:hover {
-    background: var(--white);
+    background: #08a820;
     color: var(--black);
-}
-
-.menu {
-    padding-left: 157px;
-    margin-top: -30px;
-    list-style: none;
-}
-
-.menu a {
-    color: var(--black);
-    text-decoration: none;
-}
-
-.menu a:hover {
-    color: var(--orange);
-}
-
-.menu>li {
-    display: inline-block;
-    padding: 0 28px;
-    font-family: 'graphik_lcgregular';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
 }
