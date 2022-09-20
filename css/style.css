@@ -95,8 +95,7 @@ body {
 }
 
 .btn {
-    height: 45px;
-    width: 122px;
+    min-width: 122px;
     font-family: 'graphik_lcgsemibold';
     font-style: normal;
     font-weight: 600;
@@ -115,8 +114,7 @@ body {
 }
 
 .btn_two {
-    height: 45px;
-    width: 123px;
+    min-width: 123px;
     font-family: 'graphik_lcgsemibold';
     font-style: normal;
     font-weight: 600;
@@ -154,7 +152,7 @@ body {
     font-size: 25px;
     line-height: 35px;
     color: var(--black);
-    padding-top: 12px;
+    padding-top: 11px;
 }
 
 .text1 .p_1 {
@@ -164,12 +162,20 @@ body {
     font-size: 15px;
     line-height: 25px;
     color: var(--black);
-    padding-top: 36px;
+    padding-top: 8px;
+}
+
+.btn-wrapp-two {
+    display: flex;
+    list-style: none;
+    gap: 0 7px;
+    text-decoration: none;
+    margin-right: 24px;
+    margin-top: 51px;
 }
 
 .btn_3 {
-    height: 60px;
-    width: 123px;
+    min-width: 161px;
     font-family: 'graphik_lcgsemibold';
     font-style: normal;
     font-weight: 600;
@@ -188,8 +194,7 @@ body {
 }
 
 .btn_4 {
-    height: 60px;
-    width: 122px;
+    min-width: 161px;
     font-family: 'graphik_lcgsemibold';
     font-style: normal;
     font-weight: 600;
