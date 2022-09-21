@@ -239,3 +239,12 @@ margin-top: 160px;
 list-style: none;
 display: flex;
 }
+
+.icons>li {
+    padding-left: 53px;
+    padding-top: 44px;
+}
+
+.two {
+padding-left: 33px;
+}
