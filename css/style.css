@@ -28,7 +28,6 @@ body {
 
 .container {
     max-width: 1440px;
-    margin: 0 auto;
     width: 100%;
     padding: 0;
 }
@@ -143,6 +142,7 @@ body {
     font-size: 65px;
     line-height: 70px;
     color: var(--black);
+    
 }
 
 .text1 p {
@@ -220,4 +220,17 @@ body {
 background: var(--block2);
 width: 1440px;
 height: 455px;
+margin-top: 160px;
+}
+
+.text2 h1 {
+    font-family: 'graphik_lcgsemibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: var(--black);
+    padding: 67px;
+    padding-left: 152px;
 }
