@@ -231,6 +231,11 @@ margin-top: 160px;
     line-height: 60px;
     text-align: center;
     color: var(--black);
-    padding: 67px;
-    padding-left: 152px;
+    padding-top: 100px;
+    padding-left: 110px;
+}
+
+.icons {
+list-style: none;
+display: flex;
 }
