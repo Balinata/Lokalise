@@ -289,3 +289,8 @@ color: var(--black);
     color: var(--black);
     border: none;
 }
+
+.image2 {
+    padding-top: 45px;
+    padding-left: 84px;
+}
