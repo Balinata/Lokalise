@@ -27,7 +27,6 @@ body {
 }
 
 .container {
-    max-width: 1440px;
     width: 100%;
     padding: 0;
 }
@@ -218,7 +217,6 @@ body {
 
 .block2_1 {
 background: var(--block2);
-width: 1440px;
 height: 455px;
 margin-top: 160px;
 }
@@ -247,4 +245,32 @@ display: flex;
 
 .two {
 padding-left: 33px;
+}
+
+.container_three {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0;
+}
+
+.text2_block2>h1 {
+    font-family: 'graphik_lcgsemibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: var(--black);
+}
+
+.text2_block2>p {
+    font-family: 'graphik_lcgregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--black);
+}
+
+.text2_block2 a {
+color: var(--black);
 }
