@@ -34,7 +34,7 @@ body {
 
 #header {
     display: flex;
-    padding: 23px 50px 23px 50px;
+    padding: 23px 50px 24px 129px;
     border-bottom: 1px solid var(--header-border);
     /* margin-top: -25px; */
 }
@@ -48,8 +48,7 @@ body {
 .logo {
     display: inline-block;
     vertical-align: top;
-    margin-left: -27px;
-    padding-top: 6px;
+    margin-left: -85px;
 }
 
 .header-menu {
@@ -59,7 +58,6 @@ body {
     padding: 0 0 0 14px;
     margin: 0;
     color: var(--black);
-    padding-top: 9px;
 }
 
 .header-menu>li {
@@ -82,6 +80,7 @@ body {
     list-style: none;
     gap: 0 7px;
     text-decoration: none;
+    padding-right: 27%;
 }
 
 .btn {
@@ -123,7 +122,8 @@ body {
 }
 
 .text1 {
-    padding-top: 80px;
+    padding-top: 79px;
+    padding-left: 76px;
 }
 
 .text1 h1 {
@@ -270,16 +270,6 @@ padding-top: 203px;
 
 .text2_block2 a {
 color: var(--black);
-}
-
-.btn_4 {
-    font-family: 'graphik_lcgsemibold';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    color: var(--black);
-    border: none;
 }
 
 .image2 {
