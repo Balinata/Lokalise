@@ -27,14 +27,13 @@ body {
 }
 
 .container {
-    max-width: 1440px;
     margin: 0 auto;
-    width: 100%;
+    /* padding: 0 75px; */
 }
 
 #header {
     display: flex;
-    padding: 23px 50px 24px 129px;
+    padding: 24px 300px 24px 127px;
     border-bottom: 1px solid var(--header-border);
     /* margin-top: -25px; */
 }
@@ -80,7 +79,6 @@ body {
     list-style: none;
     gap: 0 7px;
     text-decoration: none;
-    padding-right: 27%;
 }
 
 .btn {
@@ -120,6 +118,9 @@ body {
     background: #08a820;
     color: var(--black);
 }
+.block2 {
+display: flex;
+}
 
 .text1 {
     padding-top: 79px;
@@ -133,7 +134,6 @@ body {
     font-size: 65px;
     line-height: 70px;
     color: var(--black);
-    
 }
 
 .text1 p {
@@ -222,27 +222,22 @@ margin-top: 160px;
     text-align: center;
     color: var(--black);
     padding-top: 100px;
-    padding-left: 110px;
+    padding-right: 0;
 }
 
 .icons {
 list-style: none;
 display: flex;
+padding-left: 53px;
 }
 
 .icons>li {
-    padding-left: 53px;
+    padding-left: 60px;
     padding-top: 44px;
 }
 
 .two {
-padding-left: 33px;
-}
-
-.container_three {
-    max-width: 1440px;
-    width: 100%;
-    padding: 0;
+padding-left: 103px;
 }
 
 .text2_block2 {
