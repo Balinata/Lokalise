@@ -353,3 +353,23 @@ min-height: 1033px;
     text-align: center;
     color: var(--black);
 }
+
+.text5 h3 {
+    font-family: 'graphik_lcgsemibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: var(--black);
+}
+
+.text5 p {
+    font-family: 'graphik_lcgregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--black);
+}
