@@ -341,4 +341,15 @@ color: var(--black);
 
 .block4 {
 background-color: var(--beige);
+min-height: 1033px;
+}
+
+.text4_h1 {
+    font-family: 'graphik_lcgsemibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: var(--black);
 }
