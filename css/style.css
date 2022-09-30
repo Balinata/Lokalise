@@ -35,7 +35,7 @@ body {
 
 #header {
     display: flex;
-    padding: 24px 50% 24px 127px;
+    padding: 24px 127px;
     border-bottom: 1px solid var(--header-border);
 }
 
@@ -79,6 +79,8 @@ body {
     list-style: none;
     gap: 0 7px;
     text-decoration: none;
+    margin-left: 86%;
+    margin-top: -40px;
 }
 
 .btn {
