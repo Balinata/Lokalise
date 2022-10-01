@@ -240,7 +240,7 @@ body {
 
 .text2_block2 {
     padding-top: 198px;
-    padding-left: 251px;
+    /* padding-left: 251px; */
 }
 
 .text22_h1 {
@@ -289,8 +289,8 @@ body {
 }
 
 .image2 {
-    padding-top: 72px;
-    padding-left: 84px;
+    padding-top: 70px;
+    padding-left: 85px;
 }
 
 .text3_block3 h1 {
