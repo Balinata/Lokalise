@@ -381,3 +381,7 @@ body {
 .text4_block4 {
     padding-top: 423px;
 }
+
+.text2_p a {
+color: var(--black);
+}
