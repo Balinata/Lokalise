@@ -356,6 +356,7 @@ body {
     line-height: 60px;
     text-align: center;
     color: var(--black);
+    padding-top: 120px;
 }
 
 .text5 h1 {
@@ -395,4 +396,9 @@ color: var(--black);
 .image55 {
     margin-left: -1000px;
     padding-top: 70px;
+    padding-bottom: 150px;
+}
+
+.icon4 a {
+text-decoration: none;
 }
