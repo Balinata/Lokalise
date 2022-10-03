@@ -358,7 +358,7 @@ body {
     color: var(--black);
 }
 
-.text5 h3 {
+.text5 h1 {
     font-family: 'graphik_lcgsemibold';
     font-style: normal;
     font-weight: 600;
@@ -387,7 +387,7 @@ color: var(--black);
 }
 
 .text5_block5 {
-    padding-top: 290px;
+    padding-top: 335px;
     margin-left: -200px;
     margin-right: -432px;
 }
