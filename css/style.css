@@ -402,3 +402,7 @@ color: var(--black);
 .icon4 a {
 text-decoration: none;
 }
+
+.icon_list {
+display: flex;
+}
