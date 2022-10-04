@@ -406,6 +406,9 @@ text-decoration: none;
 .icon_list {
 display: flex;
 text-align: center;
+padding-left: 113px;
+padding-top: 80px;
+list-style: none;
 }
 
 .icon_h1 {
@@ -430,4 +433,8 @@ text-align: center;
 
 .icon_p a {
 color: var(--black);
+}
+
+.card {
+    padding: 0 45px;
 }
