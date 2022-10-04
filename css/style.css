@@ -438,3 +438,18 @@ color: var(--black);
 .card {
     padding: 0 45px;
 }
+
+.block_6 {
+background: var(--white);
+}
+
+.block_6_h1 {
+    font-family: 'graphik_lcgsemibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: var(--black);
+    padding-top: 155px;
+    padding-left: 75px;
+}
