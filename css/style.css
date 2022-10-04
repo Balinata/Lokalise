@@ -405,6 +405,7 @@ text-decoration: none;
 
 .icon_list {
 display: flex;
+text-align: center;
 }
 
 .icon_h1 {
@@ -425,4 +426,8 @@ display: flex;
     line-height: 25px;
     color: var(--black);
     text-align: center;
+}
+
+.icon_p a {
+color: var(--black);
 }
