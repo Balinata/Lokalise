@@ -405,6 +405,7 @@ text-decoration: none;
 
 .icon_list {
 display: flex;
+text-align: center;
 padding-left: 113px;
 padding-top: 80px;
 list-style: none;
@@ -427,6 +428,7 @@ list-style: none;
     font-size: 18px;
     line-height: 25px;
     color: var(--black);
+    text-align: center;
 }
 
 .icon_p a {
@@ -434,7 +436,7 @@ color: var(--black);
 }
 
 .card {
-    padding: 0 45px;
+    padding: 0 25px;
 }
 
 .block_6 {
@@ -456,9 +458,31 @@ background: var(--white);
 color: var(--black);
 }
 
+.icons_h1 {
+    font-family: 'graphik_lcgsemibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: var(--black);
+}
+
+.icons_p {
+    font-family: 'graphik_lcgregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--black);
+}
+
 .icons_list {
     display: flex;
-    padding-left: 113px;
-    padding-top: 80px;
+    padding-left: 90px;
+    padding-top: 75px;
     list-style: none;
     }
+    
+.icons_list a {
+color: var(--black);
+}
