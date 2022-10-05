@@ -405,7 +405,6 @@ text-decoration: none;
 
 .icon_list {
 display: flex;
-text-align: center;
 padding-left: 113px;
 padding-top: 80px;
 list-style: none;
@@ -428,7 +427,6 @@ list-style: none;
     font-size: 18px;
     line-height: 25px;
     color: var(--black);
-    text-align: center;
 }
 
 .icon_p a {
@@ -453,3 +451,14 @@ background: var(--white);
     padding-top: 155px;
     padding-left: 105px;
 }
+
+.text_6 a {
+color: var(--black);
+}
+
+.icons_list {
+    display: flex;
+    padding-left: 113px;
+    padding-top: 80px;
+    list-style: none;
+    }
