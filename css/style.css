@@ -482,7 +482,15 @@ color: var(--black);
     padding-top: 75px;
     list-style: none;
     }
-    
+
 .icons_list a {
 color: var(--black);
+}
+
+.img_icon4 {
+padding-bottom: 38px;
+}
+
+.img2_icon4 {
+    padding-bottom: 22px;
 }
