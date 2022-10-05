@@ -384,7 +384,7 @@ body {
 }
 
 .text2_p a {
-color: var(--black);
+    color: var(--black);
 }
 
 .text5_block5 {
@@ -400,15 +400,15 @@ color: var(--black);
 }
 
 .icon4 a {
-text-decoration: none;
+    text-decoration: none;
 }
 
 .icon_list {
-display: flex;
-text-align: center;
-padding-left: 113px;
-padding-top: 80px;
-list-style: none;
+    display: flex;
+    text-align: center;
+    padding-left: 113px;
+    padding-top: 80px;
+    list-style: none;
 }
 
 .icon_h1 {
@@ -432,7 +432,7 @@ list-style: none;
 }
 
 .icon_p a {
-color: var(--black);
+    color: var(--black);
 }
 
 .card {
@@ -440,7 +440,7 @@ color: var(--black);
 }
 
 .block_6 {
-background: var(--white);
+    background: var(--white);
 }
 
 .block_6_h1 {
@@ -455,7 +455,7 @@ background: var(--white);
 }
 
 .text_6 a {
-color: var(--black);
+    color: var(--black);
 }
 
 .icons_h1 {
@@ -481,7 +481,7 @@ color: var(--black);
     padding-left: 90px;
     padding-top: 75px;
     list-style: none;
-    }
+}
 
 .icons_list a {
     font-family: 'graphik_lcgregular';
@@ -489,11 +489,11 @@ color: var(--black);
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-color: var(--black);
+    color: var(--black);
 }
 
 .img_icon4 {
-padding-bottom: 35px;
+    padding-bottom: 35px;
 }
 
 .img2_icon4 {
