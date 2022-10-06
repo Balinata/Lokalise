@@ -512,11 +512,21 @@ background: var(--blue-blockquote);
 blockquote p {
 color: var(--black);
 padding-left: 75px;
+font-family: 'graphik_lcgregular';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
 }
 
 figcaption {
     color: var(--black);
     padding-left: 114px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
 }
 
 .img_quote {
