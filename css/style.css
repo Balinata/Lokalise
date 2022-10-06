@@ -6,6 +6,7 @@
     --btn-hover-grey: #343434;
     --block2: #FF9C7D;
     --beige: #FFF8E4;
+    --blue-blockquote: #C9E8F2;
 }
 
 *,
@@ -498,4 +499,27 @@ body {
 
 .img2_icon4 {
     padding-bottom: 20px;
+}
+
+.quote {
+background: var(--blue-blockquote);
+}
+
+.text_quote {
+    padding-top: 63px;
+}
+
+blockquote p {
+color: var(--black);
+padding-left: 75px;
+}
+
+figcaption {
+    color: var(--black);
+    padding-left: 114px;
+}
+
+.img_quote {
+    padding-left: 114px;
+    padding-top: 13px;
 }
