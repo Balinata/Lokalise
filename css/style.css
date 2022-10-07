@@ -572,3 +572,12 @@ background-color: var(--color-cake);
 .ul_stars {
 list-style: none;
 }
+.block_star p {
+font-family: 'graphik_lcgregular';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+letter-spacing: 0.75px;
+color: var(--black);
+}
