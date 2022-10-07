@@ -30,8 +30,8 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: 1440px;
-    width: 100%;
+    /* max-width: 1440px;
+    width: 100%; */
 }
 
 #header {
@@ -503,10 +503,11 @@ body {
 
 .quote {
 background: var(--blue-blockquote);
+display: flex;
 }
 
 .text_quote {
-    padding-top: 63px;
+    padding-top: 10px;
 }
 
 blockquote p {
@@ -535,5 +536,7 @@ line-height: 25px;
 }
 
 .autor_img {
-
+    padding-top: 47px;
+    padding-left: 181px;
+    padding-bottom: 100px;
 }
