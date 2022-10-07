@@ -564,3 +564,11 @@ background-color: var(--color-cake);
     padding-bottom: 23px;
     margin-left: -18px;
 }
+
+.star {
+
+}
+
+.ul_stars {
+list-style: none;
+}
