@@ -584,3 +584,7 @@ color: var(--black);
     border-left: 3px solid var(--black);
     height: 150px;
 }
+
+.block_cake {
+    display: flex;
+}
