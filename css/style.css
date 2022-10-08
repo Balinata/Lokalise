@@ -543,6 +543,7 @@ line-height: 25px;
 }
 
 .block7 {
+    display: flex;
 background-color: var(--color-cake);
 }
 
@@ -565,11 +566,8 @@ background-color: var(--color-cake);
     margin-left: -18px;
 }
 
-.star {
-
-}
-
 .ul_stars {
+    display: flex;
 list-style: none;
 }
 .block_star p {
