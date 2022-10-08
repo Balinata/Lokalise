@@ -503,8 +503,8 @@ body {
 }
 
 .quote {
-background: var(--blue-blockquote);
-display: flex;
+    background: var(--blue-blockquote);
+    display: flex;
 }
 
 .text_quote {
@@ -512,23 +512,23 @@ display: flex;
 }
 
 blockquote p {
-color: var(--black);
-padding-left: 75px;
-font-family: 'graphik_lcgregular';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 40px;
+    color: var(--black);
+    padding-left: 75px;
+    font-family: 'graphik_lcgregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
 }
 
 figcaption {
     color: var(--black);
     padding-left: 114px;
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
 }
 
 .img_quote {
@@ -544,7 +544,7 @@ line-height: 25px;
 
 .block7 {
     display: flex;
-background-color: var(--color-cake);
+    background-color: var(--color-cake);
 }
 
 .cake_p {
@@ -568,16 +568,17 @@ background-color: var(--color-cake);
 
 .ul_stars {
     display: flex;
-list-style: none;
+    list-style: none;
 }
+
 .block_star p {
-font-family: 'graphik_lcgregular';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 25px;
-letter-spacing: 0.75px;
-color: var(--black);
+    font-family: 'graphik_lcgregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.75px;
+    color: var(--black);
 }
 
 .block_li {
@@ -587,4 +588,9 @@ color: var(--black);
 
 .block_cake {
     display: flex;
+}
+
+.cake_png {
+    padding-left: 54px;
+    padding-right: 67px;
 }
