@@ -622,6 +622,7 @@ text-decoration: none;
     line-height: 75px;
     color: var(--black);
     text-align: center;
+    padding-top: 165px;
 }
 
 .block_7 p {
@@ -632,4 +633,5 @@ text-decoration: none;
     line-height: 30px;
     color: var(--black);
     text-align: center;
+    padding-bottom: 25px;
 }
