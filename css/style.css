@@ -584,6 +584,8 @@ figcaption {
 .block_li {
     border-left: 3px solid var(--black);
     height: 150px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .block_cake {
