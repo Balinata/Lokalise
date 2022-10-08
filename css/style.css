@@ -581,3 +581,8 @@ line-height: 25px;
 letter-spacing: 0.75px;
 color: var(--black);
 }
+
+.block_li {
+    border-left: 3px solid var(--black);
+    height: 150px;
+}
