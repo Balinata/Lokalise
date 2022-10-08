@@ -613,3 +613,23 @@ figcaption {
 .block6_stars a {
 text-decoration: none;
 }
+
+.block_7 h1 {
+    font-family: 'graphik_lcgsemibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    color: var(--black);
+    text-align: center;
+}
+
+.block_7 p {
+    font-family: 'graphik_lcgregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--black);
+    text-align: center;
+}
