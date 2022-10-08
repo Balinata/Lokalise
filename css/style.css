@@ -590,6 +590,7 @@ figcaption {
 
 .block_cake {
     display: flex;
+    padding-top: 30px;
 }
 
 .cake_png {
@@ -597,6 +598,10 @@ figcaption {
     padding-right: 67px;
 }
 
-.block_star {
+.block6_stars {
     padding-top: 25px;
+}
+
+.vector_4 {
+    padding-right: 15px;
 }
