@@ -611,7 +611,7 @@ figcaption {
 }
 
 .block6_stars a {
-text-decoration: none;
+    text-decoration: none;
 }
 
 .block_7 h1 {
@@ -649,7 +649,10 @@ text-decoration: none;
     text-align: center;
     color: var(--white);
     background: #FF6336;
-border-radius: 0px;
+    border-radius: 0px;
+    text-decoration: none;
+    display: block;
+    max-width: 190px;
 }
 
 .btn_7:hover {
