@@ -8,6 +8,7 @@
     --beige: #FFF8E4;
     --blue-blockquote: #C9E8F2;
     --color-cake: #DABC98;
+    --block_8-grey: #EEEEEE;
 }
 
 *,
@@ -715,5 +716,9 @@ background-color: var(--block2);
 .block_btn_8 {
     padding-top: 55px;
     padding-bottom: 160px;
-    padding-left: 640px;
+    padding-left: 700px;
+}
+
+.block_9 {
+
 }
