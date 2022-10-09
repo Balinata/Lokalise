@@ -639,3 +639,20 @@ text-decoration: none;
 .bird {
     padding-left: 140px;
 }
+
+.btn_7 {
+    font-family: 'graphik_lcgsemibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: var(--white);
+    background: #FF6336;
+border-radius: 0px;
+}
+
+.btn_7:hover {
+    background: var(--header-border);
+    color: #343434;
+}
