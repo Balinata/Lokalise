@@ -659,3 +659,13 @@ figcaption {
     background: var(--header-border);
     color: #343434;
 }
+
+.btn_block7 {
+    padding-top: 32px;
+    text-align: -webkit-center;
+    padding-bottom: 160px;
+}
+
+.block_8 {
+background-color: var(--block2);
+}
