@@ -669,3 +669,23 @@ figcaption {
 .block_8 {
 background-color: var(--block2);
 }
+
+.block_8 h1 {
+    font-family: 'graphik_lcgsemibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+    color: var(--black);
+}
+
+.block_8 p {
+    font-family: 'graphik_lcgregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--black);
+}
