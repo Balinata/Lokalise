@@ -8,7 +8,7 @@
     --beige: #FFF8E4;
     --blue-blockquote: #C9E8F2;
     --color-cake: #DABC98;
-    --block_8-grey: #EEEEEE;
+    --block_9-grey: #EEEEEE;
 }
 
 *,
@@ -720,5 +720,5 @@ background-color: var(--block2);
 }
 
 .block_9 {
-
+background-color: var(--block_9-grey);
 }
