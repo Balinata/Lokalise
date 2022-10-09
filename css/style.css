@@ -667,6 +667,7 @@ figcaption {
 }
 
 .block_8 {
+max-height: 600px;
 background-color: var(--block2);
 }
 
@@ -678,6 +679,7 @@ background-color: var(--block2);
     line-height: 75px;
     text-align: center;
     color: var(--black);
+    padding-top: 120px;
 }
 
 .block_8 p {
@@ -708,4 +710,10 @@ background-color: var(--block2);
 .btn_8:hover {
     background: var(--orange);
     color: #343434;
+}
+
+.block_btn_8 {
+    padding-top: 55px;
+    padding-bottom: 160px;
+    padding-left: 640px;
 }
