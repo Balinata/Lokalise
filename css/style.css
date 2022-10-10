@@ -638,7 +638,7 @@ figcaption {
 }
 
 .bird {
-    padding-left: 140px;
+    padding-left: 250px;
 }
 
 .btn_7 {
@@ -721,4 +721,5 @@ background-color: var(--block2);
 
 .block_9 {
 background-color: var(--block_9-grey);
+max-height: 900px;
 }
