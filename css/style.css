@@ -727,3 +727,35 @@ max-height: 900px;
 .block_9 {
 background-color: var(--block_9-grey);
 }
+
+.footer_nav {
+    display: inline-block;
+    width: calc(100% / 4);
+    margin-right: -4px;
+    padding-right: 30px;
+}
+
+.nav_menu {
+    list-style: none;
+}
+
+.nav_menu a {
+    transition: var(--speed);
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 28px;
+    color: var(--nav_menu);
+}
+
+.nav_menu a:hover {
+    color: var(--hover-color);
+}
+
+.footer_nav h4 {
+    font-family: 'graphik_lcgsemibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--black);
+}
