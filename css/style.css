@@ -723,3 +723,7 @@ background-color: var(--block2);
 background-color: var(--block_9-grey);
 max-height: 900px;
 }
+
+.block_9 {
+background-color: var(--block_9-grey);
+}
