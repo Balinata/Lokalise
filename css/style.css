@@ -762,3 +762,11 @@ background-color: var(--block_9-grey);
     line-height: 25px;
     color: var(--black);
 }
+
+.block9_h1 {
+    font-family: 'graphik_lcgregular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+}
