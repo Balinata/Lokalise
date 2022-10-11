@@ -740,18 +740,18 @@ background-color: var(--block_9-grey);
 }
 
 .nav_menu a {
-    transition: var(--speed);
+    transition: var(--orange);
     text-decoration: none;
     font-family: 'graphik_lcgregular';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 15px;
-    color: var(--nav_menu);
+    color: var(--black);
 }
 
 .nav_menu a:hover {
-    color: var(--hover-color);
+    color: var(--block2);
 }
 
 .footer_nav h4 {
