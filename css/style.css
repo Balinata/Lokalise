@@ -668,8 +668,8 @@ figcaption {
 }
 
 .block_8 {
-max-height: 600px;
-background-color: var(--block2);
+    max-height: 600px;
+    background-color: var(--block2);
 }
 
 .block_8 h1 {
@@ -720,12 +720,12 @@ background-color: var(--block2);
 }
 
 .block_9 {
-background-color: var(--block_9-grey);
-max-height: 900px;
+    background-color: var(--block_9-grey);
+    max-height: 900px;
 }
 
 .block_9 {
-background-color: var(--block_9-grey);
+    background-color: var(--block_9-grey);
 }
 
 .footer_nav {
@@ -770,4 +770,43 @@ background-color: var(--block_9-grey);
     font-size: 40px;
     line-height: 50px;
     color: var(--black);
+    padding-top: 90px;
+    padding-left: 75px;
+}
+
+.cicle {
+    padding-left: 75px;
+}
+
+.block_9 p {
+    color: black;
+    padding-left: 75px;
+    font-family: 'graphik_lcgregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.frame1 {
+    padding-left: 69px;
+    padding-bottom: 198px;
+    width: 163px;
+}
+
+.btn_9 {
+    font-family: 'graphik_lcgsemibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--black);
+    padding-left: 73px;
+}
+
+.btn_9:hover {
+    background: var(--header-border);
+    color: #343434;
 }
